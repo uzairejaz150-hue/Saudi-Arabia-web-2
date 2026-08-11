@@ -370,3 +370,56 @@ footer p {
         font-size: 32px;
     }
 }
+/* SAUDI ARABIA MAP */
+
+.map-section {
+    background: white;
+}
+
+.map-content {
+    max-width: 1100px;
+    margin: auto;
+
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.map-text {
+    flex: 1;
+}
+
+.map-text h3 {
+    font-size: 30px;
+    color: #176b4d;
+    margin-bottom: 20px;
+}
+
+.map-text p {
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+.map-image {
+    flex: 1;
+    text-align: center;
+}
+
+.map-image img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+/* MOBILE MAP */
+
+@media (max-width: 700px) {
+
+    .map-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+}

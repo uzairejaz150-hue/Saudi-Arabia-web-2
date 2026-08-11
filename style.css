@@ -505,3 +505,18 @@ footer p {
 .travel {
     background: white;
 }
+@media (max-width: 600px) {
+
+    .gallery-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-form {
+        width: 100%;
+    }
+
+    .navbar {
+        padding: 15px 5%;
+    }
+
+}
